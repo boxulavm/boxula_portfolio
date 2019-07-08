@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 2rem;
+}
+
+h1{
+    font-family: 'Permanent Marker', cursive !important;
+}
+
+.content{
+    color: #ddd;
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    text-align: center;
+    top: 35%;
+    border-radius: 5%;
+}
+
+.content div{
+    width: 10rem;
+    height: 3px;
+    background: #b5763f;
+    margin: 1rem auto;
+}
+
+#particles-js{
+    background: #212121;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+@media(max-width: 500px){
+    h1{
+        font-size: 2rem !important;
+    }
+    h2{
+        font-size: 1rem !important;
+    }
+    .content{
+        top: 30%;
+        width: 85%;
+    }
+}
